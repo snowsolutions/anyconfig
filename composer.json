@@ -10,7 +10,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "SnowExpress\\AnyConfig\\": "src/"
+            "SnowSolution\\AnyConfig\\": "src/"
         }
     },
     "minimum-stability": "dev"
