@@ -13,12 +13,5 @@
             "SnowExpress\\AnyConfig\\": "src/"
         }
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "SnowExpress\\AnyConfig\\AnyConfigServiceProvider"
-            ]
-        }
-    },
     "minimum-stability": "dev"
 }
