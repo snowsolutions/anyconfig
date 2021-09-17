@@ -13,5 +13,12 @@
             "SnowSolution\\AnyConfig\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SnowSolution\\AnyConfig\\AnyConfigServiceProvider"
+            ]
+        }
+    },
     "minimum-stability": "dev"
 }
