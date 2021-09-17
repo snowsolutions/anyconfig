@@ -1,0 +1,14 @@
+{
+    "name": "snowsolution/anyconfig",
+    "authors": [
+        {
+            "name": "Phuc Nguyen",
+            "email": "phucnguyen.snow@gmail.com"
+        }
+    ],
+    "require": {},
+    "psr-4": {
+        "App\\": "app/",
+        "KyNM\\Simple\\": "vendor/snowsolution/anyconfig/src"
+    }
+}
