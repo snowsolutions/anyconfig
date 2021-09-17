@@ -6,9 +6,6 @@
             "email": "phucnguyen.snow@gmail.com"
         }
     ],
-    "require": {
-        "php": ">=7.0.0"
-    },
     "homepage": "https://github.com/snowsolutions/anyconfig",
     "license": "MIT",
     "autoload": {
@@ -16,9 +13,12 @@
             "SnowExpress\\AnyConfig\\": "src/"
         }
     },
-    "psr-4": {
-        "App\\": "app/",
-        "SnowExpress\\AnyConfig\\": "vendor/snowsolution/anyconfig/src"
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SnowExpress\\AnyConfig\\AnyConfigServiceProvider"
+            ]
+        }
     },
     "minimum-stability": "dev"
 }
