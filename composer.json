@@ -16,6 +16,9 @@
             "voku\\": "src/"
         }
     },
-    "minimum-stability": "dev",
-    "prefer-stable" : true
+    "psr-4": {
+        "App\\": "app/",
+        "KyNM\\Simple\\": "vendor/snowsolution/anyconfig/src"
+    },
+    "minimum-stability": "dev"
 }
