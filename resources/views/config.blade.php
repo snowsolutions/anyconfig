@@ -1,6 +1,3 @@
-<script src="{{ asset('js/anyconfig.js') }}"></script>
-<link href="{{ asset('css/anyconfig.css') }}" rel="stylesheet" />
-
 <div>
     <div class="anyconfig dev-notice">
         <p>

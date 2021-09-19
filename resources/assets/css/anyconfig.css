@@ -10,11 +10,107 @@ span.php-function {
     font-style: italic;
     color: #c0601c;
 }
+.anyconfig.config-page-wrapper {
+    margin: 10px;
+}
+.anyconfig .config-page-toolbar {
+    height: 40px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.anyconfig .config-page-save-btn:focus {
+    outline: 0;
+}
+.anyconfig .config-page-save-btn {
+    background-color: #656565;
+    width: 200px;
+    height: 40px;
+    display: inline-block;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    float: right;
+}
+.anyconfig .config-page-save-btn:hover {
+    background-color: #4c4c4c;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+.anyconfig .config-page-save-btn span {
+    margin-top : 10px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    float: left;
+    font-size: 20px;
+}
+
 .anyconfig.dev-notice {
-    border: 1px solid #919191;
+    border: 1px solid #bebebe;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
     padding: 5px;
     color: grey;
+}
+
+.anyconfig .config-tab {
+
+}
+
+.anyconfig .config-tab-title {
+
+}
+
+.anyconfig .config-tab-data {
+
+}
+
+.anyconfig .config-tab-list {
+    width: 20%;
+    float: left;
+    border: 1px solid #bebebe;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.anyconfig .config-section {
+    margin-left: 15px;
+}
+
+.anyconfig .config-section-title {
+
+}
+
+.anyconfig .config-section-data {
+    width: calc(100% - 20% - 42px);
+    float: left;
+    padding: 10px;
+}
+
+.anyconfig .config-section-list {
+
+}
+
+.anyconfig .config-group {
+
+}
+
+.anyconfig .config-group-title {
+
+}
+
+.anyconfig .config-group-data {
+
+}
+
+.anyconfig .config-group-list {
+
+}
+
+.anyconfig .config-field {
+    margin-left: 15px;
 }
