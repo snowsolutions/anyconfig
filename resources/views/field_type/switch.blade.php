@@ -15,7 +15,7 @@ if (array_key_exists('comment', $field)) {
     $comment = $field['comment'];
 }
 ?>
-@extends('secomm.module.configuration::configurations.field.layout', ['comment' => $comment])
+@extends('anyconfig::field_type.layout', ['comment' => $comment])
 <input id="{{$uniqueIdConfig}}" type="text" class="checkbox custom-toggle config-record" data-config-path="{{$field['path']}}" data-config-tag="input" value="{{$value}}"/>
 <div class="field-label">
     <label for="">{{$field['label']}}</label>

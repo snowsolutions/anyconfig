@@ -1,1 +1,1 @@
-@include('secomm.module.configuration::configurations.field.field_comment', ['comment' => $comment])
+@include('anyconfig::field_type.field_comment', ['comment' => $comment])

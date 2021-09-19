@@ -1,6 +1,7 @@
 <?php
 namespace SnowSolution\AnyConfig\Traits;
-trait Configuration {
+
+class Configuration {
     use Bootstrap;
     /**
      * @param $backendModelClass
