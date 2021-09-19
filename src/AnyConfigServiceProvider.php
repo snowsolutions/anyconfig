@@ -9,14 +9,23 @@ class AnyConfigServiceProvider extends ServiceProvider
 
     public function register()
     {
-        $this->loadViewsFrom(__DIR__ . '/views', 'snowsolution');
-        if (!$this->app->routesAreCached()) {
-            require __DIR__ . '/routes.php';
-        }
+
     }
 
     public function boot()
     {
-        //
+        $this->loadViewsFrom(__DIR__ . '/../resources/views', 'anyconfig');
+        $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
+
+        /**
+         * Publish assets (optional)
+         */
+        if ($this->app->runningInConsole()) {
+            // Publish assets
+            $this->publishes([
+                __DIR__.'/../resources/assets' => public_path(''),
+            ], 'assets');
+
+        }
     }
 }

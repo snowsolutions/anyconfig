@@ -1,0 +1,20 @@
+/**
+PHP code snippet render
+ */
+span.php-class {
+    font-style: italic;
+    color: #a25a7f;
+}
+
+span.php-function {
+    font-style: italic;
+    color: #c0601c;
+}
+.anyconfig.dev-notice {
+    border: 1px solid #919191;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 5px;
+    color: grey;
+}

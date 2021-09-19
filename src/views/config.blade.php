@@ -1,1 +1,0 @@
-<h1>This is config page</h1>
